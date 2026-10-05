@@ -8,7 +8,7 @@ _A very simple to use text encryption tool_
 _First import Lucid_
 
 ```javascript
-import Lucid from "lucid.js"
+import Lucidcrypt from "lucid.js"
 ```
 
 _Lucid is a fuction that returns an object of properties._
@@ -17,8 +17,7 @@ _1. Encrypt_
 _To encrypt a text you need to call the function chained by the property i.e ".encrypt"_
 
 ```javascript
-const cipher = Lucid();
-const encrypted = cipher.encrypt("hello"); // !@!g-1-47d%-g7c
+const encrypted = lucycrypt.encrypt("hello"); // !@!g-1-47d%-g7c
 ```
 
 _The encrypt property accepts a parameter type of string(The text you want to encrypt)_
